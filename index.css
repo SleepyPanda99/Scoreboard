@@ -1,0 +1,76 @@
+body {
+    background-color: #002A32;
+}
+h3 {
+     color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Geo', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 54px;
+    color: red;
+    background: black;
+    width: 100px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#btn1 {
+    background: #EBA6A9;
+}
+
+#btn1:focus, #btn1:active, #btn2:focus, #btn2:active, #btn3:focus, #btn3:active, #btn4:focus, #btn4:active, #btn5:focus, #btn5:active, #btn6:focus, #btn6:active, #newgame:focus, #newgame:active {
+    -webkit-animation: btn-color 1s forwards linear;
+    -moz-animation: btn-color 1s forwards linear;
+    -ms-animation: btn-color 1s forwards linear;
+    -o-animation: btn-color 1s forwards linear;
+    animation: btn-color 1s forwards linear;
+}
+
+@-webkit-keyframes btn-color { 50% { background: #EBA6A9; } 100% { background: #002A32; } }
+@-moz-keyframes btn-color { 50% { background: #EBA6A9; }  100% { background: #002A32; } }
+@-ms-keyframes btn-color { 50% { background: #EBA6A9; } 100% { background: #002A32; } }
+@-o-keyframes btn-color { 50% { background: #EBA6A9; } 100% { background: #002A32; } }
+@keyframes btn-color { 50% { background: #EBA6A9; }  100% { background: #002A32; } }
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 1px 5px;
+    font-family: 'Black Ops One', cursive;
+    margin: 1.5px;
+}
+#newgame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px 5px;
+    margin: 50px 10px 35px 10px;
+    min-width: 100px;
+    font-family: 'Black Ops One', cursive;
+  
+}
